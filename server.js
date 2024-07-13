@@ -18,7 +18,8 @@ app.get("/", async (req, res) => {
     console.log(response);
     res.render("index.ejs", { posts: response.data });
   } catch (error) {
-    res.status(500).json({ message: "Error fetching posts" });
+    console.log(error)
+    res.status(500).json({ message: "Error fetching posts" ,msg:error});
   }
 });
 
