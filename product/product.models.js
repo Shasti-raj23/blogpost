@@ -17,7 +17,7 @@ const productSchema= mongoose.Schema({
         required:true,
         default:0
     },
-    authour:{
+    author:{
         type:String,
         required:true,
         default:0
