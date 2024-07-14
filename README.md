@@ -1,6 +1,6 @@
 # Blog Post Management Web Application
 ## Description
-This project is a web application for managing blog posts, allowing users to create, edit, update, and delete blog entries. The application is built using HTML and CSS for the front-end, and Node.js for the back-end REST API. This setup provides a seamless and interactive user experience while leveraging the power of Node.js to handle server-side operations efficiently.
+This project is a web application for managing blog posts, allowing users to create, edit, update, and delete blog entries. The application is built using HTML and CSS for the front-end, and Node.js for the back-end REST API. This setup provides a seamless and interactive user experience while leveraging the power of Node.js to handle server-side operations efficiently. The back-end utilizes MongoDB for data storage, ensuring efficient and scalable database management.
 
 ## Features
 Create Blog Posts: Users can create new blog posts with a user-friendly form.
@@ -11,3 +11,5 @@ Delete Blog Posts: Users can delete blog posts that are no longer needed.
 HTML: For structuring the web pages.
 CSS: For styling the web pages.
 Node.js: For building the REST API and handling server-side operations.
+MongoDB: For backend data storage and management.
+This application provides a robust platform for managing blog content efficiently, with a focus on usability and performance.
